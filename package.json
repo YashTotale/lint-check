@@ -1,0 +1,38 @@
+{
+  "name": "lint-all",
+  "version": "0.0.1",
+  "description": "Lint your project with prettier, eslint, and markdownlint",
+  "license": "MIT",
+  "homepage": "https://github.com/YashTotale/lint-all#readme",
+  "author": {
+    "name": "Yash Totale"
+  },
+  "bin": {
+    "lint-all": "src/lint.sh"
+  },
+  "files": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YashTotale/lint-all.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YashTotale/lint-all/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "lint",
+    "lint-all",
+    "prettier",
+    "eslint",
+    "markdownlint",
+    "javascript",
+    "typescript",
+    "markdown",
+    "code",
+    "code-quality",
+    "technical-debt",
+    "maintainability"
+  ]
+}
