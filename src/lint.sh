@@ -16,7 +16,7 @@ lint-all() {
 eslinter() {
   printf "Linting with ESLint...\n\n"
 
-  eslint .
+  npx eslint .
 
   printf "${GREEN}ESLint Done${NC}\n"
 }
@@ -24,7 +24,7 @@ eslinter() {
 markdownlinter() {
   printf 'Linting with MarkdownLint...\n\n'
 
-  markdownlint .
+  npx markdownlint .
 
   printf "${GREEN}MarkdownLint Done${NC}\n"
 }
@@ -32,7 +32,7 @@ markdownlinter() {
 prettierlinter() {
   printf 'Linting with Prettier...\n'
 
-  prettier --check .
+  npx prettier --check .
 
   printf "\n${GREEN}Prettier Done${NC}\n"
 }

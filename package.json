@@ -1,29 +1,29 @@
 {
-  "name": "lint-all",
-  "version": "0.0.1",
+  "name": "lint-check",
+  "version": "1.0.0",
   "description": "Lint your project with prettier, eslint, and markdownlint",
   "license": "MIT",
-  "homepage": "https://github.com/YashTotale/lint-all#readme",
+  "homepage": "https://github.com/YashTotale/lint-check#readme",
   "author": {
     "name": "Yash Totale"
   },
   "bin": {
-    "lint-all": "src/lint.sh"
+    "lint-check": "src/lint.sh"
   },
   "files": [],
   "repository": {
     "type": "git",
-    "url": "https://github.com/YashTotale/lint-all.git"
+    "url": "https://github.com/YashTotale/lint-check.git"
   },
   "bugs": {
-    "url": "https://github.com/YashTotale/lint-all/issues"
+    "url": "https://github.com/YashTotale/lint-check/issues"
   },
   "publishConfig": {
     "access": "public"
   },
   "keywords": [
     "lint",
-    "lint-all",
+    "lint-check",
     "prettier",
     "eslint",
     "markdownlint",
